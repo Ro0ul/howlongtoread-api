@@ -106,4 +106,4 @@ app.get("/book/:bookId/:bookName",async(req, res)=>{
     res.json(html);
 });
 
-app.listen(process.ENV.PORT || 8080);
+app.listen(process.env.PORT || 8080);
