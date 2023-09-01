@@ -1,6 +1,6 @@
 # howlongtoread-api
 ## https://howlongtoread.com/ API using NodeJS
-<img src="https://howlongtoread.com/img/hltr-logo.svg" />
+<img src="https://howlongtoread.com/img/hltr-logo.svg" style="width:50px; height:50px;" />
 
 <h3>Endpoints : </h3>
 <ul>
