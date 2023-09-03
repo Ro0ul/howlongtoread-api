@@ -99,11 +99,4 @@ app.get("/book/:bookId",async(req, res)=>{
     });
 });
 
-app.get("/book/:bookId/:bookName",async(req, res)=>{
-    const {bookId, bookName} = req.params;
-    let page = newPage(`books/${bookId}/${bookName}`);
-    const html = await (await page).content();
-    res.json(html);
-});
-
 app.listen(process.env.PORT || 8080);
